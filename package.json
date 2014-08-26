@@ -1,0 +1,25 @@
+{
+  "name": "sim-engine-scheduler",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "python test/test.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stanleygu/sim-engine-scheduler.git"
+  },
+  "author": "Stanley Gu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stanleygu/sim-engine-scheduler/issues"
+  },
+  "homepage": "https://github.com/stanleygu/sim-engine-scheduler",
+  "dependencies": {
+    "kue": "^0.8.5",
+    "lodash": "^2.4.1",
+    "nconf": "^0.6.9",
+    "zerorpc": "^0.9.3"
+  }
+}
