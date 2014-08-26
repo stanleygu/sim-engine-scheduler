@@ -6,8 +6,9 @@ nconf.argv()
   });
 
 var _ = require('lodash');
-var kue = require('kue');
 var server =  require('./lib/server');
-server.bind('tcp://127.0.0.1:' + nconf.get('rpc').port);
+var address = 'tcp://0.0.0.0:' + nconf.get('rpc').port;
+console.log('Starting RPC server listening at:', address);
+server.bind(address);
 
 
