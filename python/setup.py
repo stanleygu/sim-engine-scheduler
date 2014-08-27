@@ -1,10 +1,8 @@
 #!/usr/bin/env python
 
 from distutils.core import setup
-import json
 
-with open('../package.json') as f:
-    version = json.load(f)['version']
+version = '0.0.2'
 
 setup(name='simclient',
             version=version,
