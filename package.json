@@ -18,7 +18,7 @@
   "homepage": "https://github.com/stanleygu/sim-engine-scheduler",
   "dependencies": {
     "kue": "^0.8.5",
-    "lodash": "^2.4.1",
+    "lodash": "^4.17.15",
     "nconf": "^0.6.9",
     "zerorpc": "^0.9.3"
   }
